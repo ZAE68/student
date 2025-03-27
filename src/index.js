@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
     let helloMessage = 'Hello Incubator!!!';
     res.send(helloMessage);
 });
+console.log('Hello world');
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
 });
